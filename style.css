@@ -12,14 +12,14 @@ color: var(--branco-principal);
 font-family: var(--fonte-principal);
 font-size: 16px;
 font-weight: 400;
-18 *{
-19 margin: 0;
-20 padding: 0;
-21
+*{
+ margin: 0;
+ padding: 0;
+
 }
-23.principal {
-24 background-image: url ("img/Background.png");
-25 background-repeat: no-repeat;
-26 background-size: contain;
-27 align-items: center;
+.principal {
+ background-image: url ("img/Background.png");
+ background-repeat: no-repeat;
+ background-size: contain;
+ align-items: center;
 text-align: center;}
