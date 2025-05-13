@@ -7,7 +7,7 @@
     --botao-azul-efeito: #3c92fa;
 }
 
-body{
+body {
     background-color: var(--botao-azul);
     color: var(--branco-principal);
     font-family: var(--fonte-principal);
@@ -15,9 +15,15 @@ body{
     font-weight: 400;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-
+.principal {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
